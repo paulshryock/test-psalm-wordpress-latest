@@ -1,0 +1,15 @@
+{
+  "$schema": "https://raw.githubusercontent.com/wp-hooks/generator/0.9.0/schema.json",
+  "hooks": [
+    {
+      "name": "elasticpress_loaded",
+      "file": "../../vendor/10up/elasticpress/elasticpress.php",
+      "type": "action",
+      "doc": {
+        "description": "Fires after Elasticpress plugin is loaded",
+        "tags": []
+      },
+      "args": 0
+    }
+  ]
+}

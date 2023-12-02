@@ -1,0 +1,23 @@
+{
+    "name": "pshryock/test-psalm-wordpress-latest",
+    "autoload": {
+        "psr-4": {
+            "Pshryock\\TestPsalmWordpressLatest\\": "src/"
+        }
+    },
+    "scripts": {
+        "typecheck": "psalm"
+    },
+    "require-dev": {
+        "vimeo/psalm": "5.x",
+        "humanmade/psalm-plugin-wordpress": "dev-v5-compatibility-and-features"
+    },
+    "require": {
+        "10up/elasticpress": "^4.7"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}
