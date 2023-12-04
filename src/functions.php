@@ -47,7 +47,7 @@ $slug = 'hello_world';
 /**
  * Dynamic third-party action with no stub defined.
  *
- * This should probably throw a Psalm error, but it does not.
+ * This should throw a Psalm error.
  */
 add_action(
   "ep_delete_{$slug}",
@@ -64,7 +64,7 @@ $noun = 'thing';
 /*
  * First-party dynamic hook with no stub defined.
  *
- * This should probably throw a Psalm error, but it does not.
+ * This should throw a Psalm error.
  */
 add_filter(
   "{$verb}_some_{$noun}",

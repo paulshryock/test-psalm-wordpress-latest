@@ -909,12 +909,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/psalm/psalm-plugin-wordpress.git",
-                "reference": "faab6d5e5ae4b1d7ed374ea040524121ed62ab29"
+                "reference": "2d71d096ac6e47354e381b2d110d754a8c311c47"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/psalm/psalm-plugin-wordpress/zipball/faab6d5e5ae4b1d7ed374ea040524121ed62ab29",
-                "reference": "faab6d5e5ae4b1d7ed374ea040524121ed62ab29",
+                "url": "https://api.github.com/repos/psalm/psalm-plugin-wordpress/zipball/2d71d096ac6e47354e381b2d110d754a8c311c47",
+                "reference": "2d71d096ac6e47354e381b2d110d754a8c311c47",
                 "shasum": ""
             },
             "require": {
@@ -958,7 +958,7 @@
                 "issues": "https://github.com/psalm/psalm-plugin-wordpress/issues",
                 "source": "https://github.com/psalm/psalm-plugin-wordpress/tree/v5-compatibility-and-features"
             },
-            "time": "2023-12-02T16:34:39+00:00"
+            "time": "2023-12-04T22:30:47+00:00"
         },
         {
             "name": "netresearch/jsonmapper",
